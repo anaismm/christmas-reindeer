@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body {
+  margin: 0;
+  background-color: #1E5A2A;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+// Game mode
+.toggle-container {
+  position: fixed; 
+  bottom: 16px;
+  left: 2rem;
+}
+
+.renne {
+ width: 20rem;
+ position: relative;
+ bottom: -.25rem;
+}
+
+.toggle-wrapper {
+  background-color: #C18756;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  z-index: 10;
+  
+
+
+  & h2 {
+    margin: 0;
+    text-align: center;
+    // font-family: "Playful christmas";
+  }
+
+  & .toggle {
+    display: flex;
+    gap: 2.5rem;
+    
+    & .toggle2 {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }
+  } 
+}
+
+.flashbang {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.before-game {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  object-fit: cover;
+  display: none;
+  background-color: #1E5A2A;
+}
+
+.snowfall,
+.nether-video {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  object-fit: cover;
+  display: none;
+}
+
+.nether-video {
+  opacity: 0.9;
+  width: 105%;
+  height: 105vh;
+  left: -2.5%;
+  top: -2.5%;
+  transform: scale(1);
+  transform-origin: center;
+  animation: rotatePortal 1s infinite linear;
+}
+
+@keyframes rotatePortal {
+  100% {
+    transform: scale(1.5);
+  }
+}

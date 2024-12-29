@@ -1,0 +1,23 @@
+.btn {
+  position: fixed;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  border: none;
+  background-color: #BE2424;
+  color: white;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+  transition: all ease;
+  font-size: 1rem;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+  &:hover {
+    background-color: #9f1c1c;
+  }
+}

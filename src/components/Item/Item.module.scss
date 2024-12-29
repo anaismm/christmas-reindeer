@@ -1,0 +1,17 @@
+.item {
+  position: absolute;
+
+  &_trap {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: solid 2px #8DCAFF;
+    background-color: #D1F4FF;
+  }
+
+  &_food {
+    width: 30px;
+    height: 30px;
+    background-image:url("../../../public/cadeau.svg"); 
+  }
+}

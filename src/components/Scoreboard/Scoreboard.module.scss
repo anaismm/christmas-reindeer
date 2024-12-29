@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Playful_Christmas";
+  src: url("../../../public/fonts/Playful_Christmas/Playful_Christmas.woff") format(woff),
+  url("../../../public/fonts/Playful_Christmas/Playful_Christmas.woff2") format(woff2);
+}
+
+.title {
+  font-family:"Playful_Christmas";
+  z-index: 100;
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 2rem;
+  color:#BE2424;
+  text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+}
+
+.special-letter {
+  font-family: 'PlayfulChristmas', ; 
+  font-size: 2em; 
+  color:#BE2424;
+  text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+}
+
+.scoreboard {
+  position: absolute;
+  z-index: 100;
+  left: 5%;
+  top: 26%;
+  color: black;
+  background-color: #C18756;
+  padding: 1.5rem 2rem  1.5rem 2rem;
+  border-radius: 1rem;
+  border: solid 4px white;
+}
+
+.score_title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+
+  & h2 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+}
+
+
+.header {
+  span {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: .3rem;
+  }
+}
+.header,
+.result {
+  display: flex;
+  gap: 50px;
+
+  span {
+    width: 100px;
+  }
+}
+
+.result {
+  border-bottom: solid 1px black;
+  margin-bottom: .3rem;
+}
