@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Christmas Reindeer
+This project is a snake game but in its Christmas version.
+Your goal is to pick as much as possible gifts. But be careful, you must avoid snowball otherwise you will face some surprises.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Enjoy and mery christmas !
+
 
 ## Available Scripts
 
